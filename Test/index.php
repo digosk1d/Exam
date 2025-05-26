@@ -1,8 +1,8 @@
 <?php
-$servername = "soccerPlayers";
-$username = "your_username";
-$password = "your_password";
-$dbname = "soccer_players_db";
+$servername = "sql211.infinityfree.com";
+$username = "if0_39084235";
+$password = "wVGwHjEXw07RB";
+$dbname = "if0_39084235_soccer_players_db";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
